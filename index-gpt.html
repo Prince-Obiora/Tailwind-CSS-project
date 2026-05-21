@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nexus</title>
+
+    <link rel="stylesheet" href="./css/output.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />   
+
+   </head>
+
+<body class="text-white font-sans bg-[#081226]">
+
+    <!-- NAVBAR -->
+    <header class="border-b border-slate-800 sticky top-0 z-50 bg-[#081226]/95 backdrop-blur">
+        <nav class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+
+            <!-- Logo -->
+            <div class="flex items-center gap-2">
+                <div class="w-8 h-8 rounded-lg bg-blue-500 flex items-center justify-center">
+                    <i class="fa-solid fa-bolt text-white text-sm"></i>
+                </div>
+
+                <h1 class="text-xl font-bold">Nexus</h1>
+            </div>
+
+            <!-- Menu -->
+            <ul class="hidden md:flex items-center gap-10 text-sm text-gray-300">
+                <li><a href="#hero" class="hover:text-blue-400 transition">Home</a></li>
+                <li><a href="#services" class="hover:text-blue-400 transition">Services</a></li>
+                <li><a href="#about" class="hover:text-blue-400 transition">About</a></li>
+                <li><a href="#contact" class="hover:text-blue-400 transition">Contact</a></li>
+            </ul>
+
+            <!-- Button -->
+            <div class="flex items-center gap-4">
+                <a href="#services" class="bg-blue-500 hover:bg-blue-600 px-5 py-2 rounded-lg font-semibold transition">
+                    Get Started</a>
+
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="max-w-7xl mx-auto px-6 py-20 lg:h-screen">
+        <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+            <!-- Left -->
+            <div>
+                <h1 class="text-5xl md:text-6xl font-bold leading-tight mb-8">
+                    Build Your
+                    <span class="text-blue-500">Digital</span>
+                    Future
+                </h1>
+
+                <p class="text-gray-300 text-lg leading-8 max-w-xl mb-10">
+                    Transform your business with cutting-edge solutions
+                    that drive growth and innovation in the digital
+                    landscape.
+                </p>
+
+                <div class="flex flex-wrap gap-5">
+                    <a href="#services" class="bg-blue-500 hover:bg-blue-600 px-8 py-4 rounded-xl font-semibold transition">
+                        Start Your Journey</a>
+
+                    <a href="#about" class="border border-slate-700 hover:border-blue-500 px-8 py-4 rounded-xl font-semibold transition">
+                        Learn More</a>
+                </div>
+            </div>
+
+            <!-- Right -->
+            <div
+                class="bg-black rounded-2xl overflow-hidden shadow-2xl border border-slate-800">
+                <img
+                    src="./images/hero-image.png"
+                    alt="Dashboard"
+                    class="w-full h-90 object-cover hover:scale-105 transition duration-500" />
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="bg-[#101c35] py-24">
+        <div class="max-w-7xl mx-auto px-6">
+
+            <!-- Heading -->
+            <div class="text-center mb-16">
+                <h2 class="text-5xl font-bold mb-6">Our Services</h2>
+
+                <p class="text-gray-300 text-lg max-w-2xl mx-auto leading-8">
+                    We provide comprehensive solutions to help your
+                    business thrive in the digital age
+                </p>
+            </div>
+
+            <!-- Cards -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Card 1 -->
+                <div
+                    class="bg-[#1a2744] border border-slate-700 rounded-2xl p-8 hover:-translate-y-2 transition duration-300">
+
+                    <div
+                        class="w-14 h-14 rounded-xl bg-blue-500 flex items-center justify-center mb-8">
+                        <i class="fa-solid fa-code text-xl"></i>
+                    </div>
+
+                    <h3 class="text-2xl font-bold mb-5">
+                        Web Development
+                    </h3>
+
+                    <p class="text-gray-300 leading-8">
+                        Custom websites and web applications built with
+                        modern technologies for optimal performance.
+                    </p>
+                </div>
+
+                <!-- Card 2 -->
+                <div
+                    class="bg-[#1a2744] border border-slate-700 rounded-2xl p-8 hover:-translate-y-2 transition duration-300">
+
+                    <div
+                        class="w-14 h-14 rounded-xl bg-green-500 flex items-center justify-center mb-8">
+                        <i class="fa-solid fa-mobile-screen text-xl"></i>
+                    </div>
+
+                    <h3 class="text-2xl font-bold mb-5">
+                        Mobile Apps
+                    </h3>
+
+                    <p class="text-gray-300 leading-8">
+                        Native and cross-platform mobile applications
+                        that deliver exceptional user experiences.
+                    </p>
+                </div>
+
+                <!-- Card 3 -->
+                <div
+                    class="bg-[#1a2744] border border-slate-700 rounded-2xl p-8 hover:-translate-y-2 transition duration-300">
+
+                    <div
+                        class="w-14 h-14 rounded-xl bg-purple-500 flex items-center justify-center mb-8">
+                        <i class="fa-solid fa-chart-line text-xl"></i>
+                    </div>
+
+                    <h3 class="text-2xl font-bold mb-5">
+                        Digital Marketing
+                    </h3>
+
+                    <p class="text-gray-300 leading-8">
+                        Strategic marketing campaigns that boost your
+                        online presence and drive conversions.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="py-24">
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+                <!-- Image -->
+                <div
+                    class="overflow-hidden rounded-2xl border border-slate-700">
+                    <img
+                        src="./images/about-image.png"
+                        alt="Office"
+                        class="w-full h-80 object-cover hover:scale-105 transition duration-500" />
+                </div>
+
+                <!-- Content -->
+                <div>
+                    <h2 class="text-5xl font-bold mb-8">
+                        About Nexus
+                    </h2>
+
+                    <p class="text-gray-300 leading-9 text-lg mb-10">
+                        We are a forward-thinking technology company
+                        dedicated to helping businesses navigate the
+                        digital transformation journey. With years of
+                        experience and a passion for innovation, we
+                        deliver solutions that matter.
+                    </p>
+
+                    <div class="flex gap-20">
+                        <div>
+                            <h3 class="text-5xl font-bold text-blue-500">
+                                150+
+                            </h3>
+                            <p class="text-gray-300 mt-3">
+                                Projects Completed
+                            </p>
+                        </div>
+
+                        <div>
+                            <h3 class="text-5xl font-bold text-green-400">
+                                98%
+                            </h3>
+                            <p class="text-gray-300 mt-3">
+                                Client Satisfaction
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="bg-[#101c35] py-24">
+        <div class="max-w-6xl mx-auto px-6">
+
+            <!-- Heading -->
+            <div class="text-center mb-16">
+                <h2 class="text-5xl font-bold mb-6">
+                    Get In Touch
+                </h2>
+
+                <p class="text-gray-300 text-lg">
+                    Ready to start your project? Let's discuss how we
+                    can help you achieve your goals.
+                </p>
+            </div>
+
+            <!-- Contact Box -->
+            <div
+                class="bg-[#1a2744] border border-slate-700 rounded-2xl p-10 grid lg:grid-cols-2 gap-12">
+
+                <!-- Left -->
+                <div class="space-y-8">
+
+                    <div class="flex items-center gap-4">
+                        <i class="fa-solid fa-envelope text-blue-400"></i>
+                        <span class="text-gray-300">
+                            hello@nexus.com
+                        </span>
+                    </div>
+
+                    <div class="flex items-center gap-4">
+                        <i class="fa-solid fa-phone text-blue-400"></i>
+                        <span class="text-gray-300">
+                            +1 (555) 123-4567
+                        </span>
+                    </div>
+
+                    <div class="flex items-center gap-4">
+                        <i class="fa-solid fa-location-dot text-blue-400"></i>
+                        <span class="text-gray-300">
+                            123 Business Ave, Tech City
+                        </span>
+                    </div>
+
+                </div>
+
+                <!-- Right -->
+                <form class="space-y-5">
+
+                    <input
+                        type="text"
+                        placeholder="Your Name"
+                        class="w-full bg-slate-700 border border-slate-600 rounded-lg px-5 py-4 outline-none focus:border-blue-500" />
+
+                    <input
+                        type="email"
+                        placeholder="Your Email"
+                        class="w-full bg-slate-700 border border-slate-600 rounded-lg px-5 py-4 outline-none focus:border-blue-500" />
+
+                    <textarea
+                        rows="5"
+                        placeholder="Your Message"
+                        class="w-full bg-slate-700 border border-slate-600 rounded-lg px-5 py-4 outline-none focus:border-blue-500"></textarea>
+
+                    <button
+                        class="w-full bg-blue-500 hover:bg-blue-600 py-4 rounded-lg font-semibold transition">
+                        Send Message
+                    </button>
+
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="border-t border-slate-800 py-6">
+        <div
+            class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
+
+            <!-- Logo -->
+            <div class="flex items-center gap-2">
+                <div
+                    class="w-8 h-8 rounded-lg bg-blue-500 flex items-center justify-center">
+                    <i class="fa-solid fa-bolt text-white text-sm"></i>
+                </div>
+
+                <h2 class="text-xl font-bold">Nexus</h2>
+            </div>
+
+            <!-- Copyright -->
+            <p class="text-gray-400 text-sm">
+                © 2024 Nexus. All rights reserved.
+            </p>
+
+            <!-- Socials -->
+            <div class="flex items-center gap-5 text-gray-400">
+                <a href="#" class="hover:text-blue-400 transition">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+
+                <a href="#" class="hover:text-blue-400 transition">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+                <a href="#" class="hover:text-blue-400 transition">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>
